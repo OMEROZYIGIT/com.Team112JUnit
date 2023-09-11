@@ -13,6 +13,7 @@ public class C01_ByByMainMethod {
     @After
     public void tearDown(){
         System.out.println("Tear method is executed");
+        System.out.println("______________________________________");
     }
 
     @Test
