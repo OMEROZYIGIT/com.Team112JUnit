@@ -39,7 +39,7 @@ public class C02_BeforeClass_AfterClass {
     public void tearDown() throws InterruptedException {
 
         Thread.sleep(2000);
-        //driver.close();
+        driver.close();
     }
 
     @Test
