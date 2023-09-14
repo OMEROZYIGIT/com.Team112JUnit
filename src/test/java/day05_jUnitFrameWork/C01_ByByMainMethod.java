@@ -6,10 +6,13 @@ import org.junit.Test;
 
 public class C01_ByByMainMethod {
 
-     @Before
+
+    @Before
     public void setUp(){
-         System.out.println("Setup method is executed");
+        System.out.println("Setup method is executed");
     }
+
+
     @After
     public void tearDown(){
         System.out.println("Tear method is executed");
@@ -23,6 +26,7 @@ public class C01_ByByMainMethod {
 
         System.out.println("Test01 is executed");
     }
+
     @Test
     public void test02(){
 
@@ -34,5 +38,6 @@ public class C01_ByByMainMethod {
 
         System.out.println("Test03 is executed");
     }
+
 
 }
