@@ -33,11 +33,11 @@ public class C05_CheckBox {
     @After
     public void tearDown(){
 
-        // driver.close();
+        driver.close();
     }
 
     @Test
-    public void test01(){
+    public void test01() throws InterruptedException {
 
         // a. Go to the given web page.
         // https://the internet.herokuapp.com/checkboxes
@@ -56,6 +56,8 @@ public class C05_CheckBox {
         if (!checkBox2.isSelected()){
             checkBox2.click();
         }
+        Thread.sleep(500);
 
     }
+
 }
