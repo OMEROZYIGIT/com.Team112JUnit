@@ -71,6 +71,45 @@ public class C02_JsAlerts  {
 
         Assert.assertEquals(expectedText,actualText);
 
-
     }
+     @Test
+    public void test03(){
+        // test click for js prompt
+         // after entering java and clicking ok,test that result text is "you entered:java"
+         // go website
+         driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+
+         // click on click for js Prompt buttom
+         WebElement jsPrompt = driver.findElement(By.xpath("//button[@onclick='jsPrompt()']"));
+         jsPrompt.click();
+
+         // write "java" on JS alert
+         driver.switchTo().alert().sendKeys("Java");
+
+         // accept js alert
+         driver.switchTo().alert().accept();
+
+         // take the text of Result and test that result text is "You entered: java"
+         String actualResultText = driver.findElement(By.xpath("//p[@id='result']")).getText();
+         String expectedResultRest = "You entered: Java";
+
+         Assert.assertEquals(expectedResultRest,actualResultText);
+
+     }
+     @Test
+    public void test04(){
+        // test that when we click on 3rd button and cancel result text is "You entered: null"
+         driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+
+         // click on click for js Prompt buttom
+         WebElement jsPrompt = driver.findElement(By.xpath("//button[@onclick='jsPrompt()']"));
+         jsPrompt.click();
+
+         driver.switchTo().alert().dismiss();
+
+         String actualResultText = driver.findElement(By.xpath("//p[@id='result']")).getText();
+         String expectedResultRest = "You entered: null";
+
+         Assert.assertEquals(expectedResultRest,actualResultText);
+     }
 }
