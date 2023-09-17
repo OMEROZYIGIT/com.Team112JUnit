@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C02_JsAlerts {
+public class C02_JsAlerts  {
 
     // set required options
     // go to https://the-internet.herokuapp.com/javascript_alerts
