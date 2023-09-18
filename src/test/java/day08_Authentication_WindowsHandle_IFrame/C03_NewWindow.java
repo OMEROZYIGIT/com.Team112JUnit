@@ -27,7 +27,7 @@ public class C03_NewWindow {
     @After
     public void tearDown () throws InterruptedException {
 
-        Thread.sleep(500);
+        Thread.sleep(1000);
         // driver.close();
         // to close all dirver
         driver.quit();
@@ -46,14 +46,26 @@ public class C03_NewWindow {
         Assert.assertTrue(actualTitleText.contains(expectedKey));
         Thread.sleep(500);
 
-        // to open new tab we use this code
+        // in a new tab, go to the wisequarter.com
+        //test that you are in wisequarter
+
+        // to take the first page's handle value, we need to take it before jumping to the second tab
+        // by using this unique
+        String firstTabsHandleValue = driver.getWindowHandle();
+
+        // to open a new tab, we use this code
+        // when we create a new tab by using this code. driver will also jump to the new tab
         driver.switchTo().newWindow(WindowType.TAB);
         driver.get("https://www.wisequarter.com/");
-
         String actualUrl = driver.getCurrentUrl();
         String expectedUrl = "wisequarter";
 
         Assert.assertTrue(actualUrl.contains(expectedUrl));
 
+        driver.switchTo().window(firstTabsHandleValue);
+        String actualURL = driver.getCurrentUrl();
+        String expectedWord = "amazon";
+
+        Assert.assertEquals(true, actualURL.contains(expectedWord));
     }
 }
