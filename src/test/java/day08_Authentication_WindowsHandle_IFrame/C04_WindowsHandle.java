@@ -57,9 +57,12 @@ public class C04_WindowsHandle {
         Assert.assertTrue(tittle.contains("The Internet"));
         Thread.sleep(500);
 
+        String firstPageHandleValue = driver.getWindowHandle();
+
         // click on "Click Here" Button
         WebElement newtab = driver.findElement(By.xpath("//a[normalize-space()='Click Here']"));
         newtab.click();
+        Thread.sleep(500);
 
         // test that "New Window" test is displayed.
         WebElement text1 = driver.findElement(By.tagName("h3"));
@@ -67,7 +70,13 @@ public class C04_WindowsHandle {
 
         Thread.sleep(1000);
 
+        // test that the first page Url has internet
+        driver.switchTo().window(firstPageHandleValue);
+        String firstPageUrl = driver.getCurrentUrl();
+        String expectedUrlWord = "internet";
+        Assert.assertTrue(firstPageUrl.contains(expectedUrlWord));
+
+        Thread.sleep(1000);
 
     }
-
 }

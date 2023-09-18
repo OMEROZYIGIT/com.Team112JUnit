@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ae5fb7a-62b3-4d7f-99ba-53c6314765c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08_Authentication_WindowsHandle_IFrame/C03_NewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_Authentication_WindowsHandle_IFrame/C03_NewWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day08_Authentication_WindowsHandle_IFrame/C03_NewWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day08_Authentication_WindowsHandle_IFrame/C03_NewWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,39 +49,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C04_WindowsHandle.test01">
-    <configuration name="C01_Authentication.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
-      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.C01_Authentication" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_IFrame.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
-      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.C02_IFrame" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestBaseFirstTest.test01">
     <configuration name="C03_NewWindow.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
@@ -114,6 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C05_WindowsHandle.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Team112JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
+      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.C05_WindowsHandle" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuestionPg19.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
@@ -130,13 +114,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestBaseFirstTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Team112JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
+      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.TestBaseFirstTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBaseFirstTest.test01" />
+        <item itemvalue="JUnit.C05_WindowsHandle.test01" />
         <item itemvalue="JUnit.C04_WindowsHandle.test01" />
         <item itemvalue="JUnit.C03_NewWindow.test01" />
         <item itemvalue="JUnit.QuestionPg19.test01" />
-        <item itemvalue="JUnit.C02_IFrame.test01" />
-        <item itemvalue="JUnit.C01_Authentication.test01" />
       </list>
     </recent_temporary>
   </component>
