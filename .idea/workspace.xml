@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae5fb7a-62b3-4d7f-99ba-53c6314765c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C03_DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C04_MoveToElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C05_KeyBoardActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C06_FakerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C02_ActionsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C02_ActionsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day09_actions_faker/C02_ActionsClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day09_actions_faker/C02_ActionsClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +166,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/day09_actions_faker/C02_ActionsClass.java</url>
-          <line>69</line>
+          <line>70</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
