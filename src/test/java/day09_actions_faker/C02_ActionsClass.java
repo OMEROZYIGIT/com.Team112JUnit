@@ -8,6 +8,10 @@ import org.openqa.selenium.interactions.Actions;
 import utilities.ReusableMethods;
 import utilities.TestBase;
 
+import java.util.Set;
+
+import static org.junit.Assert.assertEquals;
+
 public class C02_ActionsClass extends TestBase {
     /*
         1) Let's create a new class: MouseActions1
@@ -27,7 +31,7 @@ public class C02_ActionsClass extends TestBase {
         // 3) Right-click on the drawn area
         WebElement rightClickArea = driver.findElement(By.id("hot-spot"));
 
-        // to use premade methods from Actions class we need to create an object from it
+        // to use premade methods from Actions class, we need to create an object from it
         Actions actions = new Actions(driver);
 
         // to right-click on a webelement: contectClick(WenElement)
@@ -38,7 +42,7 @@ public class C02_ActionsClass extends TestBase {
         String actualAlertTest = driver.switchTo().alert().getText();
         String expectedAlertTest = "You selected a context menu";
 
-        Assert.assertEquals(expectedAlertTest,actualAlertTest);
+        assertEquals(expectedAlertTest,actualAlertTest);
 
         ReusableMethods.waitFor(1);
 
@@ -49,5 +53,22 @@ public class C02_ActionsClass extends TestBase {
         driver.findElement(By.xpath("//a[@target='_blank']")).click();
 
         // 7) Let's test that "Elemental Selenium" is written in the h1 tag on the page that opens.
+        String firstPageHW = driver.getWindowHandle();
+        Set<String> handleValuesSet = driver.getWindowHandles();
+        String secondTabHW ="";
+        for (String each:handleValuesSet
+             ) {
+            if (!each.equals(firstPageHW)){
+                secondTabHW = each;
+            }
+        }
+
+        driver.switchTo().window(secondTabHW);
+        WebElement elementalSelenium = driver.findElement(By.tagName("h1"));
+        String actualText = elementalSelenium.getText();
+        System.out.println(actualText);
+        String expectedText = "Make sure your code lands";
+        Assert.assertEquals(expectedText,actualText);
+
     }
 }
