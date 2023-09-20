@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae5fb7a-62b3-4d7f-99ba-53c6314765c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C01_Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C02_ActionsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day08_Authentication_WindowsHandle_IFrame/C04_WindowsHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +52,48 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestBaseFirstTest.test01">
-    <configuration name="C03_NewWindow.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_ActionsClass.test01">
+    <configuration name="C01_Questions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
+          <option name="PATTERN" value="day09_actions_faker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
-      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.C03_NewWindow" />
+      <option name="PACKAGE_NAME" value="day09_actions_faker" />
+      <option name="MAIN_CLASS_NAME" value="day09_actions_faker.C01_Questions" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_WindowsHandle.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_ActionsClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
+          <option name="PATTERN" value="day09_actions_faker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
-      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.C04_WindowsHandle" />
+      <option name="PACKAGE_NAME" value="day09_actions_faker" />
+      <option name="MAIN_CLASS_NAME" value="day09_actions_faker.C02_ActionsClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_ActionsClass.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Team112JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day09_actions_faker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day09_actions_faker" />
+      <option name="MAIN_CLASS_NAME" value="day09_actions_faker.C02_ActionsClass" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -92,22 +110,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
       <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.C05_WindowsHandle" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuestionPg19.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
-      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.QuestionPg19" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_ActionsClass.test01" />
+        <item itemvalue="JUnit.C02_ActionsClass" />
+        <item itemvalue="JUnit.C01_Questions.test01" />
         <item itemvalue="JUnit.TestBaseFirstTest.test01" />
         <item itemvalue="JUnit.C05_WindowsHandle.test01" />
-        <item itemvalue="JUnit.C04_WindowsHandle.test01" />
-        <item itemvalue="JUnit.C03_NewWindow.test01" />
-        <item itemvalue="JUnit.QuestionPg19.test01" />
       </list>
     </recent_temporary>
   </component>
