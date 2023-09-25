@@ -70,9 +70,26 @@ public class C01_Cookies extends TestBase {
         int actualCookieNumber = amazonCookies.size();
         Assert.assertEquals(expectedCookieNumber,actualCookieNumber);
 
+        System.out.println("================= Test#4 ==============");
+        System.out.println("delete the cookies");
         // 7) Delete the cookie whose name is skin and test it is deleted
+        driver.manage().deleteCookieNamed("skin");
+        amazonCookies = driver.manage().getCookies();
+        boolean skincookie = true;
+        for (Cookie eachCookie: amazonCookies
+             ) {
+            if (eachCookie.getName().equals("skin")){
+                skincookie = false;
+            }
+        }
+        Assert.assertTrue(skincookie);
 
-
+        System.out.println("================= Test#5 ==============");
+        System.out.println("delete all cookies");
+        // 8) delete all cookies and test if they are deleted
+        driver.manage().deleteAllCookies();
+        amazonCookies = driver.manage().getCookies();
+        Assert.assertEquals(0,amazonCookies.size());
 
 
     }
