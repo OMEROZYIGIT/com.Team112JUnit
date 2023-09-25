@@ -24,7 +24,9 @@ public class C05_FileUploadedTest extends TestBase {
         // 3. press chooseFile buttons
         WebElement chooseFileButton = driver.findElement(By.id("file-upload"));
 
-                                                // "C:\Users\Zenbook\OneDrive\
+                                        // "C:\Users\Zenbook  + \OneDire\Masaüstü\HelloJava.txt
+                                        // ortak kısım + istediğin dosya
+                                        // her bilgisayar için ortak olan user.home
         String dynamicPath = System.getProperty("user.home")+"\\OneDrive\\Masaüstü\\HelloJava.txt";
 
         chooseFileButton.sendKeys(dynamicPath);

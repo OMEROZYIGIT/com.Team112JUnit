@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae5fb7a-62b3-4d7f-99ba-53c6314765c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C04_MoveToElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C05_KeyBoardActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day09_actions_faker/C06_FakerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day10_waits_File/C05_FileUploadedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day10_waits_File/C05_FileUploadedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,83 +45,85 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="C01_Questions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C01_Cookies.test01">
+    <configuration name="C01_Cookies.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_actions_faker.*" />
+          <option name="PATTERN" value="day11_cookies_tables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions_faker.C01_Questions" />
+      <option name="PACKAGE_NAME" value="day11_cookies_tables" />
+      <option name="MAIN_CLASS_NAME" value="day11_cookies_tables.C01_Cookies" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ActionsClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_Imp_Exp_Waits.explicitWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_actions_faker.*" />
+          <option name="PATTERN" value="day10_waits_File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions_faker.C02_ActionsClass" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="day10_waits_File" />
+      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C02_Imp_Exp_Waits" />
+      <option name="METHOD_NAME" value="explicitWaitTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ActionsClass.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_FileInputStream.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_actions_faker.*" />
+          <option name="PATTERN" value="day10_waits_File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_actions_faker" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions_faker.C02_ActionsClass" />
+      <option name="PACKAGE_NAME" value="day10_waits_File" />
+      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C03_FileInputStream" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_WindowsHandle.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_FileDownloadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
+          <option name="PATTERN" value="day10_waits_File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
-      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.C05_WindowsHandle" />
+      <option name="PACKAGE_NAME" value="day10_waits_File" />
+      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C04_FileDownloadTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBaseFirstTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_FileUploadedTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_Authentication_WindowsHandle_IFrame.*" />
+          <option name="PATTERN" value="day10_waits_File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_Authentication_WindowsHandle_IFrame" />
-      <option name="MAIN_CLASS_NAME" value="day08_Authentication_WindowsHandle_IFrame.TestBaseFirstTest" />
+      <option name="PACKAGE_NAME" value="day10_waits_File" />
+      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C05_FileUploadedTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_ActionsClass.test01" />
-        <item itemvalue="JUnit.C02_ActionsClass" />
-        <item itemvalue="JUnit.C01_Questions.test01" />
-        <item itemvalue="JUnit.TestBaseFirstTest.test01" />
-        <item itemvalue="JUnit.C05_WindowsHandle.test01" />
+        <item itemvalue="JUnit.C01_Cookies.test01" />
+        <item itemvalue="JUnit.C05_FileUploadedTest.test01" />
+        <item itemvalue="JUnit.C04_FileDownloadTest.test01" />
+        <item itemvalue="JUnit.C03_FileInputStream.test01" />
+        <item itemvalue="JUnit.C02_Imp_Exp_Waits.explicitWaitTest" />
       </list>
     </recent_temporary>
   </component>
