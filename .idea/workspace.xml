@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae5fb7a-62b3-4d7f-99ba-53c6314765c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day11_cookies_tables/C02_WebTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day11_cookies_tables/C01_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day11_cookies_tables/C01_Cookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day11_cookies_tables/C01_Cookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day11_cookies_tables/C01_Cookies.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,81 +49,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_Cookies.test01">
-    <configuration name="C01_Cookies.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="C01_Table.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team112JUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11_cookies_tables.*" />
+          <option name="PATTERN" value="day12_table_excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11_cookies_tables" />
-      <option name="MAIN_CLASS_NAME" value="day11_cookies_tables.C01_Cookies" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_Imp_Exp_Waits.explicitWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10_waits_File.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day10_waits_File" />
-      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C02_Imp_Exp_Waits" />
-      <option name="METHOD_NAME" value="explicitWaitTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_FileInputStream.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10_waits_File.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day10_waits_File" />
-      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C03_FileInputStream" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_FileDownloadTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10_waits_File.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day10_waits_File" />
-      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C04_FileDownloadTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C05_FileUploadedTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10_waits_File.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day10_waits_File" />
-      <option name="MAIN_CLASS_NAME" value="day10_waits_File.C05_FileUploadedTest" />
+      <option name="PACKAGE_NAME" value="day12_table_excel" />
+      <option name="MAIN_CLASS_NAME" value="day12_table_excel.C01_Table" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -133,11 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01_Cookies.test01" />
-        <item itemvalue="JUnit.C05_FileUploadedTest.test01" />
-        <item itemvalue="JUnit.C04_FileDownloadTest.test01" />
-        <item itemvalue="JUnit.C03_FileInputStream.test01" />
-        <item itemvalue="JUnit.C02_Imp_Exp_Waits.explicitWaitTest" />
+        <item itemvalue="JUnit.C01_Table.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +82,17 @@
       <updated>1694466309407</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -168,6 +110,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/day09_actions_faker/C02_ActionsClass.java</url>
           <line>70</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day11_cookies_tables/C02_WebTables.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
