@@ -89,13 +89,14 @@ public class C01_Table extends TestBase {
         System.out.println("value of desired data: "+valueOfData);
 
 
-
     }
 
     public String getTableValueUsingRowAndColumn(int row, int column) {
+
         String xpath = "//div[@class='rt-tr-group']["+row+"]//div["+column+"]";
         WebElement valueWebElement = driver.findElement(By.xpath(xpath));
         String valueOfElement = valueWebElement.getText();
         return valueOfElement;
+
     }
 }

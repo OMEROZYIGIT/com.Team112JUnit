@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae5fb7a-62b3-4d7f-99ba-53c6314765c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day11_cookies_tables/C02_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C03_WriteExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C04_TakeScreenShotOfAllPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C05_TakeFullPageSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C06_ScreenShotOfDesiredElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C07_JS_Executer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12_table_excel/C01_Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12_table_excel/C01_Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12_table_excel/countries.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12_table_excel/countries.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C01_ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C01_ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C02_ReadExcelMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C02_ReadExcelMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_table_excel/C01_Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day12_table_excel/C01_Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,41 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Zenbook/IdeaProjects/com.Team112JUnit/src/test/java/day12_table_excel",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="C01_Table.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Team112JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12_table_excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day12_table_excel" />
-      <option name="MAIN_CLASS_NAME" value="day12_table_excel.C01_Table" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.C01_Table.test01" />
-      </list>
-    </recent_temporary>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zenbook\IdeaProjects\com.Team112JUnit\src\test\java\day12_table_excel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zenbook\IdeaProjects\com.Team112JUnit\src\test\java\day12_table_excel" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
