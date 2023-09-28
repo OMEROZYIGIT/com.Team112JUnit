@@ -55,7 +55,7 @@ public class C01_DropDown {
 
         Assert.assertEquals(expectedSelectedObjectText,actualSelectedObjectText);
 
-        select.selectByIndex(7);  // because of this numnber, it chose index 7th option starting from zero
+        select.selectByIndex(7);  // because of this numnber, it chose an index 7th option starting from zero
 
         select.selectByValue("search-alias=digital-music");
 

@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae5fb7a-62b3-4d7f-99ba-53c6314765c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C03_WriteExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C04_TakeScreenShotOfAllPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C05_TakeFullPageSS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C06_ScreenShotOfDesiredElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C07_JS_Executer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day12_table_excel/C01_Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12_table_excel/C01_Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day12_table_excel/countries.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12_table_excel/countries.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C01_ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C01_ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C02_ReadExcelMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_excel_ScreenShoot_JsExecuter/C02_ReadExcelMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_table_excel/C01_Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day12_table_excel/C01_Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07_dropDown_JsAlerts/C01_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_dropDown_JsAlerts/C01_DropDown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +44,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Zenbook/IdeaProjects/com.Team112JUnit/src/test/java/day12_table_excel",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
